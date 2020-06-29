@@ -1,0 +1,25 @@
+.donate {
+    text-align: center;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.overlay {
+    height: 100px;
+    width: 300px;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    top: 565px;
+    left: 570px;
+    border-radius: 15px;
+}
+
+.donate:hover .overlay {
+    opacity: 0.3;
+}
+
+.text {
+    text-align: center;
+    padding-top: 20px;
+}
